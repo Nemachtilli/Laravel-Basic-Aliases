@@ -1,0 +1,26 @@
+ 
+#Laravel
+
+alias pas="php artisan serve"
+
+
+#migration
+
+alias pam="php artisan migrate"
+alias pamf="php artisan migrate --force"
+alias pamr="php artisan migrate:rollback"
+alias pamr="php artisan migrate:reset"
+alias pamrs="php artisan migrate:refresh --seed"
+alias pamf="php artisan migrate:fresh"
+alias pamr="php artisan migrate:refresh"
+alias pasd="php artisan schema:dump"
+alias pasdp="php artisan schema:dump --prune"
+
+
+#Test
+alias vt="vendor/bin/phpunit"
+
+
+#your computer
+alias cdw="cd /var/www/html"
+alias home="cd ~/"
